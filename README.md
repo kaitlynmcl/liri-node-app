@@ -8,5 +8,5 @@ Language Interpretation and Recognition Interface.
 * Based on user input, the content stored in random.txt can generate multiple results from either the "concert-this", "spotify-this-song", or "movie-this" commands.
 * LIRI also relies on installed packages for basic functionality, including Moment, File System, DotEnv, and Request. 
 
-Visit http://github.com to for a view of how LIRI App works. 
+Visit https://kaitlynmcl.github.io/liri-node-app/ to view how LIRI App works. 
                 
