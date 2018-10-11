@@ -1,0 +1,41 @@
+
+.container{
+    font-family:"century gothic";
+    text-align: center;
+    font-size: 24px; 
+    margin-top: 0;
+    margin-bottom: 5%;
+}
+
+    .jumbotron {
+    background-image: url("screenshots/mrnobody19.jpg");
+    background-color: #17234E;
+    color:whitesmoke;
+    font-family: "century gothic";
+    margin-bottom: 0;
+    height: 100%;
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 10%;
+} 
+
+h1,h2,h3,
+h4,h5,h6 {
+    padding-right: 5px;
+    margin-bottom: 0px;
+    padding-left: -5px;
+    margin: 5%;
+
+}
+
+.display-4 {
+    padding-top: 7%;
+}
+
+.instructions {
+    font-size: 12px;
+    width: 95%;
+}
+
+
