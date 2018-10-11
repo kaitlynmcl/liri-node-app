@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>LIRI APP DEMO </title>
+
+    <!-- LINK TO CSS-->
+    <link rel="stylesheet" type="text/css" media="screen" href="screenshots.css">
+
+    <!-- LINK TO BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- LINK TO FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4">LIRI: Node.js App</h1>
+                <p class="lead">A Language Interpretation and Recognition Interface </p>
+        </div>
+                <h2>How does LIRI work?</h2>
+                <p class="instructions">LIRI is a backend node.js application that displays information in the terminal window based on certain "command" prompts from the user.
+                    <br> The selected commands are "concert-this", "spotify-this-song", "movie-this", and "do-what-it-says". 
+                    <br>LIRI works by pulling data requests from Bandsintown API, Spotify API, and OMDB API to display certain pieces of information. 
+                    <br>"do-what-it-says" is a unique function that can be altered based on information provided in "random.txt" file. 
+                    <br>Based on user input, the content stored in random.txt can generate multiple results from either the "concert-this", "spotify-this-song", or "movie-this" commands.</p>
+                
+                <div class="row">      
+                <div class="col-md-6 screenshots-column">
+                        <h3>concert-this</h3>
+                        <h6>By typing: node liri.js concert-this "artist name"</h3>
+                        <img class="screenshot" src="screenshots/concert-this.png" alt="screenshot">
+                        <h6>LIRI displays the following result:</h3>
+                        <img class="screenshot" src="screenshots/concert-thisres.png" alt="screenshot">
+                    <br><br><br><br>
+                        <h3>spotify-this-song</h3>
+                        <h6>By typing: node liri.js spotify-this-song "song name"</h3>
+                        <img class="screenshot" src="screenshots/spotify.png" alt="screenshot">
+                        <h6>LIRI displays the following result:</h3>
+                        <img class="screenshot" src="screenshots/spotify-this.png" alt="screenshot"> 
+                    </div>
+
+                 <div class="col-md-6 screenshots-column">
+                        <h3>movie-this</h3>
+                        <h6>By typing: node liri.js movie-this "movie name"</h3>
+                        <img class="screenshot" src="screenshots/movie-this.png" alt="screenshot">
+                        <h6>LIRI displays the following result:</h3>
+                        <img class="screenshot" src="screenshots/movie-results.png">
+                    <br><br>
+                        <h3>do-what-it-says</h3>
+                        <h6>By typing: node liri.js do-what-it-says </h3>
+                        <img class="screenshot" src="screenshots/doit.png" alt="screenshot">
+                        <h6>LIRI displays multiple results:</h3>
+                        <img class="screenshot" src="screenshots/dowhatitsayssong.png" alt="screenshot"><br>
+                        <img class="screenshot" src="screenshots/movie-results.png" alt="screenshot">
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <footer>
+            
+            </footer>
+    
+</body>
+</html>
